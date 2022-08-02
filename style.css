@@ -34,8 +34,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .bloc-lg {
@@ -427,7 +427,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .mg-lg {
@@ -821,6 +821,12 @@ h4 {
     margin-left: -65px;
 }
 
+address {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -830,8 +836,8 @@ h4 {
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
     .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .navbar-brand img[src$=svg] {
         margin-left: -45px;
@@ -1069,5 +1075,9 @@ h4 {
         display: flex;
         justify-content: center;
         padding: 10px;
+    }
+
+    address {
+        font-size: 14px;
     }
 }
